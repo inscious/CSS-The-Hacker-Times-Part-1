@@ -30,6 +30,14 @@ nav ul {
     margin: 4px;
 }
 
+nav {
+    border-top: solid 1px #777;
+    border-bottom: solid 1px #777;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
 header h1 {
     font-family: Abril Fatface;
 }
@@ -67,12 +75,22 @@ p {
     text-align: justify;
 }
 
-section {
+.more-articles div {
     display: inline-block;
-    width: 49%;
+    width: 47%;
+    padding-right: 15px;
 }
 
-nav {
-    border-top: solid 1px #777;
-    border-bottom: solid 1px #777;
+
+.even-more {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.even-more div {
+    padding-right: 15px;
+}
+
+.content-image {
+    width: 100%;
 }
